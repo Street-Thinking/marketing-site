@@ -1,0 +1,29 @@
+{{ $context := .Context }}
+{{ $base := site.BaseURL }}
+{{ $pageLink := replace $context.Permalink $base "/" }}
+{{ $lang := $context.Lang }}
+{{ $context.Scratch.Set "path" "/" }}
+
+
+<ul class="breadcrumb" data-aos="fade-up-sm" data-aos-delay="50">
+  <li class="breadcrumb-list-item">
+    <a class="text-primary" href="{{ $base | relLangURL }}">
+      {{ i18n "home" | default "Home" }}
+    </a>
+  </li>
+  {{ range $index, $e := split $pageLink "/" }}
+    {{ if ne $e $lang }}
+      {{ $context.Scratch.Add "path" $e }}
+    {{ else }}
+      {{ $context.Scratch.Add "path" (add $e "/") }}
+    {{ end }}
+    {{ if and (ne $e "") (ne $e $lang) }}
+      <li class="breadcrumb-list-item">
+        <a class="text-primary" href="{{ $context.Scratch.Get `path` }}/">
+          {{ replace . "-" " " }}
+        </a>
+      </li>
+      {{ $context.Scratch.Add "path" "/" }}
+    {{ end }}
+  {{ end }}
+</ul>

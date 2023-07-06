@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html
+  lang="fr-fr"
+  itemscope
+  itemtype="http://schema.org/WebPage">
+  <head>
+    
+    <meta charset="utf-8" />
+<title>Spotify L&#39;intégration</title>
+
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+<meta name="theme-name" content="spydea-hugo" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/favicon_hu531aef8c2cf12ba9b2db0da9a8cab761_4113_32x0_resize_lanczos_3.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu531aef8c2cf12ba9b2db0da9a8cab761_4113_32x0_resize_lanczos_3.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_hu531aef8c2cf12ba9b2db0da9a8cab761_4113_16x0_resize_lanczos_3.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_hu531aef8c2cf12ba9b2db0da9a8cab761_4113_32x0_resize_lanczos_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_hu531aef8c2cf12ba9b2db0da9a8cab761_4113_180x0_resize_lanczos_3.png">
+
+
+
+
+
+
+
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
+  name="msapplication-TileColor"
+  content="#ddd" />
+<meta
+  name="theme-color"
+  content="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <base href="https://localhost:1313/fr/integration/spotify/" />
+
+
+
+<meta name="generator" content="Hugo 0.115.1">
+
+
+
+
+
+
+
+
+
+
+  
+    <link rel="alternate" hreflang="en" href="https://localhost:1313/integration/spotify/" />
+  
+    <link rel="alternate" hreflang="fr" href="https://localhost:1313/fr/integration/spotify/" />
+  
+  <link rel="alternate" hreflang="x-default" href="https://localhost:1313/fr/integration/spotify/" />
+
+
+
+
+
+  <meta name="keywords" content="Boilerplate, Hugo, Themefisher, GetHugoThemes" />
+
+
+
+
+<meta name="description" content="Nous collectons certaines données personnelles d&#39;identification lorsque vous vous inscrivez à notre service" />
+
+
+
+  <meta name="author" content="Themefisher" />
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+
+    
+    <meta property="og:image:type" content="image/svg+xml" />
+  
+
+  
+
+
+
+
+
+<meta property="og:title" content="Spotify L&#39;intégration" />
+<meta property="og:description" content="Nous collectons certaines données personnelles d&#39;identification lorsque vous vous inscrivez à notre service" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://localhost:1313/fr/integration/spotify/" />
+
+
+<meta name="twitter:title" content="Spotify L&#39;intégration" />
+<meta name="twitter:description" content="Nous collectons certaines données personnelles d&#39;identification lorsque vous vous inscrivez à notre service" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=&display=swap"
+  rel="stylesheet" />
+
+
+
+
+
+
+
+
+  
+
+
+
+<link
+  href="/css/style.min.e1f3ed03f7bbdc569eb8a96a8c923a97fa2b5312b543df7a1a2c1dae09d455b1.css"
+  integrity="sha256-4fPtA/e73FaeuKlqjJI6l/orUxK1Q996GiwdrgnUVbE="
+  rel="stylesheet" />
+
+  </head>
+
+  <body>
+    
+    
+      
+
+
+
+      
+
+    
+
+
+    
+    
+
+<div class="line-bg fixed left-0 top-1/2 z-10 flex h-screen w-full -translate-y-1/2 justify-between">
+  <div class="container flex justify-between">
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class=" inline-block h-full opacity-50 md:opacity-100"></span>
+  </div>
+</div>
+
+
+
+
+  
+    <div class="announcement">
+      <div class="container-fluid">
+        <div class="relative flex items-center justify-between sm:text-center">
+          <span class="mx-auto pr-10">
+            Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh Vivamus <a href="#"
+
+
+
+ 
+
+
+>Learn More</a>
+          </span>
+          <button
+            class="close-btn flex h-[20px] min-w-[20px] items-center justify-center rounded-full border-2 border-white text-white opacity-80"
+            aria-label="close toast button"
+            type="button">
+            <i class="fa-solid fa-xmark !text-[10px]"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+  
+
+
+
+<header
+  class="header sticky-header 
+    bg-quaternary/20
+   z-50">
+  <nav class="navbar container relative z-30">
+    <a href="/fr" class="navbar-brand mr-auto">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img"
+      width="158"
+      height="37"
+      src="/images/logo-dark_hu39032fe3de88cfffefdf50b5b5cf22f5_2006_316x0_resize_q90_h2_lanczos_3.webp"
+      alt="spydea"
+      onerror="this.onerror=null;this.src='\/images\/logo-dark_hu39032fe3de88cfffefdf50b5b5cf22f5_2006_316x0_resize_lanczos_3.png'" />
+  
+  
+
+
+    </a>
+    
+    
+
+
+
+
+
+
+
+
+  <select
+    class="language-switcher block border-0 bg-right px-6 pl-0 mr-4 text-base lg:hidden"
+    onchange="location = this.value">
+    
+      
+        <option
+          id="en"
+          value="/integration/spotify/">
+          En
+        </option>
+      
+    
+      
+        <option
+          id="fr"
+          value="/fr/integration/spotify/"
+          selected>
+          Fr
+        </option>
+      
+    
+  </select>
+
+
+    
+
+    <button class="navbar-toggler group relative" aria-label="navbar toggler">
+      <div
+        class="relative flex h-[30px] w-[30px] transform items-center justify-center overflow-hidden rounded-full ring-0 transition-all duration-200">
+        <div
+          class="flex h-[15px] w-[18px] origin-center transform flex-col justify-between overflow-hidden transition-all duration-300 group-[.active]:h-[21px]">
+          <div
+            class="bg-dark h-[2px] w-7 origin-left transform transition-all duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="bg-dark h-[2px] w-7 transform rounded transition-all delay-75 duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="bg-dark h-[2px] w-7 origin-left transform transition-all delay-150 duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="absolute top-2.5 flex w-0 -translate-x-10 transform items-center justify-between transition-all duration-500 group-[.active]:w-12 group-[.active]:translate-x-0">
+            <div
+              class="bg-dark absolute h-[2px] w-5 rotate-0 transform transition-all delay-300 duration-500 group-[.active]:rotate-45"></div>
+            <div
+              class="bg-dark absolute h-[2px] w-5 -rotate-0 transform transition-all delay-300 duration-500 group-[.active]:-rotate-45"></div>
+          </div>
+        </div>
+      </div>
+    </button>
+    
+
+    <div class="navbar-wrapper">
+      <ul class="navbar-nav">
+        
+        
+          
+          
+          
+
+          
+            <li class="nav-item">
+              <a
+                
+                href="
+                  /fr/
+                "
+                class="nav-link "
+                >Maison</a
+              >
+            </li>
+          
+        
+          
+          
+          
+
+          
+            <li class="nav-item">
+              <a
+                
+                href="
+                  /fr/about/
+                "
+                class="nav-link "
+                >À propos</a
+              >
+            </li>
+          
+        
+          
+          
+          
+
+          
+            <li class="nav-item">
+              <a
+                
+                href="
+                  /fr/blog/
+                "
+                class="nav-link "
+                >Blog</a
+              >
+            </li>
+          
+        
+          
+          
+          
+
+          
+            <li class="nav-item nav-dropdown group">
+              <span
+                class="nav-link 
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                 inline-flex items-center">
+                Pages
+                <i class="fa-solid fa-chevron-down arrow-icon"></i>
+              </span>
+              <ul
+                class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/elements/
+                      "
+                      class="nav-dropdown-link ">
+                      Éléments
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/404/
+                      "
+                      class="nav-dropdown-link ">
+                      404
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/authors/
+                      "
+                      class="nav-dropdown-link ">
+                      Auteurs
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/career/
+                      "
+                      class="nav-dropdown-link ">
+                      Carrière
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/contact/
+                      "
+                      class="nav-dropdown-link ">
+                      Contact
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/pricing/
+                      "
+                      class="nav-dropdown-link ">
+                      Tarification
+                    </a>
+                  </li>
+                
+                  
+                  
+
+
+                  <li class="nav-dropdown-item">
+                    <a
+                      
+                      href="
+                        /fr/terms-conditions/
+                      "
+                      class="nav-dropdown-link ">
+                      Terms &amp; Conditions
+                    </a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+      
+
+      <div
+        class="order-2 mx-auto mb-[0.75rem] flex flex-col items-center lg:mx-0 lg:mb-0 lg:flex-row">
+        
+
+
+
+
+
+
+
+
+  <select
+    class="language-switcher hidden lg:block"
+    onchange="location = this.value">
+    
+      
+        <option
+          id="en"
+          value="/integration/spotify/">
+          En
+        </option>
+      
+    
+      
+        <option
+          id="fr"
+          value="/fr/integration/spotify/"
+          selected>
+          Fr
+        </option>
+      
+    
+  </select>
+
+
+        
+        <div
+          class="flex flex-col justify-center gap-5 pt-4 text-center lg:flex-row lg:gap-7 lg:pt-0 lg:text-left">
+          
+            
+              <a
+                href="/fr/integration/"
+                class="btn btn-outline-primary w-[200px] min-[340px]:w-[300px] lg:w-auto">
+                Integration
+              </a>
+            
+          
+          
+            
+              <a
+                href="/fr/contact/"
+                class="btn btn-primary w-[200px] min-[340px]:w-[300px] lg:w-auto">
+                Get Started
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+  
+
+  
+    
+
+<div class="line-bg absolute z-20">
+  <div class="container flex justify-between">
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+  </div>
+</div>
+
+  
+</header>
+
+
+
+
+    <main>
+      
+  
+
+
+
+
+
+  
+
+<section class="section page-header relative overflow-hidden pb-96 after:z-10">
+  
+    <div class="container relative z-30">
+      <div class="row items-center">
+        <div class="lg:col-7 mx-auto text-center">
+          <h1
+            class="mb-6 text-[35px] capitalize sm:text-[50px] xl:text-[65px]"
+            data-aos="fade-up-sm">
+            Spotify L&#39;intégration
+          </h1>
+
+          
+          
+
+          
+
+
+
+
+
+
+<ul class="breadcrumb" data-aos="fade-up-sm" data-aos-delay="50">
+  <li class="breadcrumb-list-item">
+    <a class="text-primary" href="/fr">
+      Maison
+    </a>
+  </li>
+  
+    
+      
+    
+    
+  
+    
+      
+    
+    
+  
+    
+      
+    
+    
+      <li class="breadcrumb-list-item">
+        <a class="text-primary" href="/fr/integration/">
+          integration
+        </a>
+      </li>
+      
+    
+  
+    
+      
+    
+    
+      <li class="breadcrumb-list-item">
+        <a class="text-primary" href="/fr/integration/spotify/">
+          spotify
+        </a>
+      </li>
+      
+    
+  
+    
+      
+    
+    
+  
+</ul>
+
+
+          
+        </div>
+      </div>
+    </div>
+    
+  
+
+  
+
+<div class="line-bg absolute z-20">
+  <div class="container flex justify-between">
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+  </div>
+</div>
+
+  
+
+  
+  <div
+    class="pointer-events-none absolute left-0 top-[5%] z-30 hidden select-none lg:block"
+    data-aos="fade-up-sm">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/page-header-s-1.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-secondary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+  </div>
+  <div
+    class="pointer-events-none absolute right-0 top-[25%] z-30 hidden select-none lg:block"
+    data-aos="fade-up-sm">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/page-header-s-2.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-quinary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+  </div>
+  
+</section>
+
+
+  <section class="section-md relative z-20 mt-[-28rem] md:mt-[-32rem]">
+    <div class="container">
+      <div class="row">
+        <div class="lg:col-11 mx-auto">
+          <div
+            data-aos="fade-up-sm"
+            data-aos-delay="100"
+            class="shadow-default rounded-2xl bg-white px-8 py-8 sm:px-14 sm:py-14 lg:px-24 lg:py-24">
+            <div
+              class="border-border mb-12 flex flex-col flex-wrap items-start justify-between gap-y-4 border-b border-opacity-50 pb-14 sm:flex-nowrap md:flex-row md:items-center">
+              <div class="mb-4 flex flex-wrap items-center gap-6 md:mb-0">
+                <div
+                  class="h-[85px] w-[85px] overflow-hidden rounded-2xl md:h-[110px] md:w-[110px]">
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/integration/spotify.svg"
+        loading="lazy"
+        decoding="async"
+        alt="icon"
+        class="h-full w-full img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+                </div>
+                <div>
+                  <h2
+                    class="font-primary text-dark mb-4 text-3xl font-semibold sm:text-4xl">
+                    Spotify
+                  </h2>
+                  <p class="w-full max-w-[500px] text-lg">
+                    Nous collectons certaines données personnelles d&#39;identification lorsque vous vous inscrivez à notre service
+                  </p>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="btn btn-primary btn-md">
+                Install
+                <i class="fa-solid fa-arrow-up-right-from-square ml-3"></i>
+              </a>
+            </div>
+            <div class="content prose">
+              <h4 id="comment-connecter-votre-magasin-avec">Comment connecter votre magasin avec</h4>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Donec sollicitudin</p>
+<p>In order to use our Service, you must meet a number of conditions, including but not limited to:</p>
+<ul>
+<li>Enhance or improve User experience, our Site, or our Service.</li>
+<li>Process transactions.</li>
+<li>Send emails about our Site or respond to inquiries.</li>
+<li>Send emails and updates about Conclude, including news and requests for agreement to amended legal documents such as this Privacy Policy and our Terms of Service.</li>
+<li>Perform any other function that we believe in good is necessary to protect the or proper functioning of our Site or Service.</li>
+</ul>
+<h4 id="what-are-some-advantages-of-using-figma">What are some advantages of using Figma</h4>
+<p>feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. Donec sollicitudin</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+
+    </main>
+
+    
+    
+      
+
+
+
+
+<footer
+  class=" bg-theme-dark relative z-20 after:absolute after:left-0 after:top-0 after:-z-10 after:h-[400px] after:w-full after:bg-white after:content-['']">
+  
+    <div class="container relative z-30">
+      
+  
+    
+      <div
+        class="shadow-default xs:px-8 relative z-20 overflow-hidden rounded-lg bg-white px-2 py-10 sm:px-14">
+        <div class="row items-center text-center sm:text-left">
+          <div class="md:col-12 lg:col-7 xl:col-6">
+            <h2
+              data-aos="fade-up-sm"
+              class="font-secondary mb-6 !leading-normal sm:text-[34px] md:text-[46px]">
+              Inscrivez-vous et créez votre aujourd&rsquo;hui !
+            </h2>
+            
+              <span
+                class="text-dark inline-block align-middle text-[20px] font-bold"
+                data-aos="fade-up-sm"
+                data-aos-delay="50">
+                Prise en
+              </span>
+              <ul
+                class="mx-auto mt-2 flex w-fit flex-row gap-8 align-middle text-[28px] sm:ml-7 sm:mt-0 sm:inline-flex">
+                
+                  <li
+                    class="text-dark"
+                    data-aos="fade-up-sm"
+                    data-aos-delay="0">
+                    <a href="#?">
+                      <i class="fa-brands fa-windows"></i>
+                      <span class="sr-only">fa-brands fa-windows</span>
+                    </a>
+                  </li>
+                
+                  <li
+                    class="text-dark"
+                    data-aos="fade-up-sm"
+                    data-aos-delay="50">
+                    <a href="#?">
+                      <i class="fa-brands fa-dropbox"></i>
+                      <span class="sr-only">fa-brands fa-dropbox</span>
+                    </a>
+                  </li>
+                
+                  <li
+                    class="text-dark"
+                    data-aos="fade-up-sm"
+                    data-aos-delay="100">
+                    <a href="#?">
+                      <i class="fa-solid fa-hashtag"></i>
+                      <span class="sr-only">fa-solid fa-hashtag</span>
+                    </a>
+                  </li>
+                
+                  <li
+                    class="text-dark"
+                    data-aos="fade-up-sm"
+                    data-aos-delay="150">
+                    <a href="#?">
+                      <i class="fa-brands fa-android"></i>
+                      <span class="sr-only">fa-brands fa-android</span>
+                    </a>
+                  </li>
+                
+              </ul>
+            
+            
+              <div
+                class="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-4 sm:justify-start sm:gap-8"
+                data-aos="fade-up-sm"
+                data-aos-delay="50">
+                
+                  <a
+                    href="/fr/contact/"
+                    class="btn btn-primary btn-md">
+                    Obtenir un devis
+                  </a>
+                
+                
+                  <a
+                    href="/fr/integration/"
+                    class="btn btn-outline-primary btn-md">
+                    L&rsquo;intégration
+                  </a>
+                
+              </div>
+            
+          </div>
+          
+          <div class="lg:col-5 xl:col-6 hidden lg:block">
+            <div class="cta-clip-path relative" data-aos="fade-right-md">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <img
+          
+            src="/images/cta-image_hu70fa27ad21c75d5d81c2f54ea41bd50f_81027_470x484_resize_q90_h2_lanczos_3.webp" loading="lazy" decoding="async"
+            alt="cta-image"
+          
+
+          class=" mx-auto block img"
+          width="470"
+          height="484"
+          onerror="this.onerror='null';this.src='\/images\/cta-image.png';" />
+      
+      
+    
+    
+  
+
+
+  
+
+
+            </div>
+          </div>
+          
+        </div>
+
+        
+        <div
+          data-aos="fade-left-sm"
+          class="pointer-events-none absolute left-[-65px] top-0 -z-10 select-none sm:left-0">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/cta-s-1.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-secondary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+        </div>
+        <div
+          data-aos="fade-right-sm"
+          class="pointer-events-none absolute bottom-[40px] right-[-90px] -z-10 select-none xl:right-[-60px]">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/cta-s-2.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-secondary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+        </div>
+        <div
+          class="pointer-events-none absolute bottom-[-120px] left-1/2 -z-10 -translate-x-1/2 select-none sm:bottom-[-90px]">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/cta-s-3.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-quaternary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+        </div>
+        
+      </div>
+    
+  
+
+
+    </div>
+    
+  
+
+
+  <div
+    data-aos="fade-in"
+    data-aos-delay="50"
+    class="
+      pt-[80px] lg:pt-[130px]
+     container relative z-30">
+    <div class="row items-center justify-center pb-10 lg:justify-between">
+      <div class="col-auto">
+        <a href="/fr">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img"
+      width="158"
+      height="37"
+      src="/images/logo-light_hu35dbdc67316ce75d1ec52e367839cfdd_2216_316x0_resize_q90_h2_lanczos_3.webp"
+      alt="spydea"
+      onerror="this.onerror=null;this.src='\/images\/logo-light_hu35dbdc67316ce75d1ec52e367839cfdd_2216_316x0_resize_lanczos_3.png'" />
+  
+  
+
+
+        </a>
+      </div>
+      
+      <div class="lg:col-6 pt-10 lg:pt-0">
+        
+
+
+
+  
+    <form
+      method="POST"
+      action="#"
+      class="
+        mx-auto lg:ml-auto lg:mr-0 lg:max-w-full
+       flex w-full max-w-[600px] flex-col justify-between rounded-md bg-white p-[6px] sm:flex-row">
+      <input
+        type="email"
+        class="w-full border-0 bg-transparent p-4 pl-6 text-center text-base placeholder:text-neutral-400 focus:border-0 focus:ring-0 sm:text-left"
+        placeholder="Entrez votre adresse email"
+        required />
+      <button type="submit" class="btn btn-primary btn-md">
+        Obtenir un devis
+      </button>
+    </form>
+  
+
+
+      </div>
+      
+    </div>
+    
+
+    <hr
+      class="border-light/20 h-[1px] border-0 border-b border-opacity-30 bg-transparent" />
+
+    <div class="row gy-5 lg:g-4 py-7 text-center sm:py-14 sm:text-left">
+      <div class="sm:col-6 md:col-4 lg:col-3 xl:col-3">
+        <div class="widget lg:pl-16">
+          <h3 class="widget-title">Société</h3>
+          <ul class="widget-content">
+            
+              <li>
+                <a href="/fr/about/">About us</a>
+              </li>
+            
+              <li>
+                <a href="/fr/contact/">Contact us</a>
+              </li>
+            
+              <li>
+                <a href="/fr/pricing/">Pricing</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <div class="sm:col-6 md:col-4 lg:col-2 xl:col-2">
+        <div class="widget pl-0">
+          <h3 class="widget-title">Ressources</h3>
+          <ul class="widget-content">
+            
+              <li>
+                <a href="/fr/blog/">Blog</a>
+              </li>
+            
+              <li>
+                <a href="/fr/career/">Career</a>
+              </li>
+            
+              <li>
+                <a href="/fr/terms-conditions/">Terms &amp; Conditions</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <div class="sm:col-6 md:col-4 lg:col-4 xl:col-3">
+        <div class="widget lg:pl-8">
+          <h3 class="widget-title">Envoyez-nous email</h3>
+          <div
+            class="mx-auto -mt-1 mb-4 w-fit text-[22px] font-bold text-amber-400 transition-all duration-300 hover:underline hover:underline-offset-4 sm:mx-0">
+            <a href="mailto:hello@spydea.com"
+              >hello@spydea.com</a
+            >
+          </div>
+          
+            <ul class="social-icons justify-center sm:justify-start">
+              
+                <li>
+                  <a href="#" target="_blank">
+                    <span class="sr-only">facebook</span>
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="#" target="_blank">
+                    <span class="sr-only">twitter</span>
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="#" target="_blank">
+                    <span class="sr-only">mastodon</span>
+                    <i class="fab fa-mastodon"></i>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="#" target="_blank">
+                    <span class="sr-only">instagram</span>
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              
+            </ul>
+            
+          
+        </div>
+      </div>
+      
+      <div class="sm:col-6 md:col-6 lg:col-3 xl:col-3">
+        <div class="xl:pl-16">
+          <h3 class="widget-title">Contactez-nous</h3>
+          <div
+            class="mx-auto -mt-1 w-fit text-[22px] font-bold text-amber-400 transition-all duration-300 hover:underline hover:underline-offset-4 sm:mx-0">
+            <a href="tel:&#43;94746-388817"
+              >&#43;94746-388817</a
+            >
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <hr
+      class="border-light/20 h-[1px] border-0 border-b border-opacity-30 bg-transparent" />
+    <p class="copyright">
+      Copyright by your company
+      
+        | Themes by
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://gethugothemes.com/"
+          >GetHugoThemes</a
+        >
+      
+    </p>
+    
+  </div>
+  
+
+  
+
+<div class="line-bg absolute left-0 top-1/2 flex h-full w-full -translate-y-1/2 justify-between">
+  <div class="container flex justify-between">
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+    <span
+      class="bg-line-dark inline-block h-full opacity-50 md:opacity-100"></span>
+  </div>
+</div>
+
+  
+
+  <div class="absolute bottom-0 left-0 -z-10 h-full w-full">
+    <div
+      class="
+        top-[35%]
+       pointer-events-none absolute right-0 hidden select-none lg:block">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/footer-s-1.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-quaternary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+    </div>
+    <div
+      class="pointer-events-none absolute bottom-0 hidden select-none lg:block min-[1024px]:left-[-6%] min-[1400px]:left-0">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/footer-s-2.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-quinary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+    </div>
+    <div
+      class="pointer-events-none absolute bottom-0 right-0 hidden select-none lg:block">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/images/shapes/footer-s-3.svg"
+        loading="lazy"
+        decoding="async"
+        alt="shape"
+        class="inline-svg text-secondary img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+    </div>
+  </div>
+  
+</footer>
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<script
+  crossorigin="anonymous"
+  integrity="sha256-zALMV/pmsLood4gAW1VMLA4LLX6Zg/OlxZrQgP&#43;Qqoc="
+  src="/js/script.min.cc02cc57fa66b0ba287788005b554c2c0e0b2d7e9983f3a5c59ad080ff90aa87.js"></script>
+
+
+
+<script>
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
+</script>
+
+
+
+
+
+
+  
+    <div id="cookie-box" class="cookie-box cookie-box-hide">
+      This site uses cookies. By continuing to use this website, you agree to their use.
+      <button
+        id="cookie-button"
+        class="cookie-box-button btn btn-sm btn-outline-primary">
+        I Accept
+      </button>
+    </div>
+
+    
+    <script type="application/javascript">
+      const cookieBox = document.getElementById('cookie-box');
+      const cookieButton = document.getElementById('cookie-button');
+      if (!Cookies.get('cookie-consent')) {
+        cookieBox.classList.remove('cookie-box-hide');
+        cookieButton.onclick = function () {
+          Cookies.set('cookie-consent', true, {
+            expires:  60 
+          });
+          cookieBox.classList.add('cookie-box-hide');
+        };
+      }
+    </script>
+
+    
+    <style>
+      .cookie-box {
+        position: fixed;
+        left: 2rem;
+        bottom: 2rem;
+        z-index: 9999;
+        padding: 1.5rem;
+        background-color: #fff;
+        max-width: calc(100% - 4rem);
+        width: 25rem;
+        box-shadow: 1px 0px 10px 7px rgba(154, 154, 154, 0.11);
+        border-radius: inherit;
+      }
+      .cookie-box-hide {
+        display: none;
+      }
+      .cookie-box-button {
+        display: block;
+        margin-top: 1rem;
+      }
+
+      .dark .cookie-box {
+        background-color: #222;
+      }
+    </style>
+  
+
+
+
+
+
+
+
+    
+  </body>
+</html>

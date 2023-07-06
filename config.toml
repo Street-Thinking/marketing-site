@@ -1,0 +1,73 @@
+# DON'T REMOVE THIS FILE.
+# This file is for render site varibles and plugins
+#
+# The actual configuration files are stored in the `config/_default/` folder.
+
+
+######################### site variables ##############################
+# customize your color and font from here.
+[params.colors.default.theme_color]
+primary = "#000"
+secondary = "#73cfa8"
+tertiary = "#fb9289"
+quaternary = "#fde179"
+quinary = "#73b1ff"
+senary = "#F4FDFF"
+body = "#fff"
+border = "#DBDBDB"
+theme_light = "#f3f0f0"
+theme_dark = "#000000"
+
+[params.colors.default.text_color]
+default = "#555555"
+dark = "#222"
+light = "#fffefe"
+
+[params.fonts.font_family]
+primary = "Maven+Pro:wght@400;500;600;700"
+primary_type = "sans-serif"
+secondary = "Merriweather:wght@400;700"
+secondary_type = "sans-serif"
+
+[params.fonts.font_size]
+base = "16"    # default is 16px
+scale = "1.23" # default is "majorThird": 1.25
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+[[params.plugins.css]]
+link = "plugins/glightbox/glightbox.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/regular.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+[[params.plugins.js]]
+link = "plugins/glightbox/glightbox.js"
+[[params.plugins.js]]
+link = "js/gallery-slider.js"
+[[params.plugins.js]]
+link = "js/tab.js"
+[[params.plugins.js]]
+link = "plugins/inline-svg/inline-svg.min.js"
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+[[params.plugins.js]]
+link = "plugins/lazy-loader.js"
+[[params.plugins.js]]
+link = "plugins/youtube-lite.js"

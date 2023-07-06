@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Spydea sass theme</title>
+    <link>https://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Spydea sass theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate><atom:link href="https://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terms &amp; Conditions</title>
+      <link>https://localhost:1313/terms-conditions/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://localhost:1313/terms-conditions/</guid>
+      <description>1. Definitions We collect certain identifying personal data when you Sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number.</description>
+    </item>
+    
+    <item>
+      <title>About Spydea</title>
+      <link>https://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Choose the Plan That’s Right for You</title>
+      <link>https://localhost:1313/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elements</title>
+      <link>https://localhost:1313/elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/elements/</guid>
+      <description>Table Of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
+    </item>
+    
+    <item>
+      <title>Page Not Found</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+  </channel>
+</rss>
