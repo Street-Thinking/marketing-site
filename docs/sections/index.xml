@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Betterly.ai</title>
-    <link>https://localhost:1313/marketing-site/sections/</link>
+    <link>https://street-thinking.github.io/marketing-site/sections/</link>
     <description>Recent content in Sections on Betterly.ai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://localhost:1313/marketing-site/sections/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://street-thinking.github.io/marketing-site/sections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link></link>
