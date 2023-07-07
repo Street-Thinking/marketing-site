@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "The smarter way to save documents"
+  title: "Automated Accountability for Franchised Restaurant Marketing"
   description: "Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh. Vivamus accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed suscipit tortor eghet felis porttitor volutpat. Vivamus"
   images:
     main: "/images/banner/banner-image.jpg"
