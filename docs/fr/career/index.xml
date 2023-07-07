@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carrière chez Spydea on Spydea sass theme</title>
-    <link>https://localhost:1313/fr/career/</link>
-    <description>Recent content in Carrière chez Spydea on Spydea sass theme</description>
+    <title>Carrière chez Spydea on Betterly.ai</title>
+    <link>https://localhost:1313/marketing-site/fr/career/</link>
+    <description>Recent content in Carrière chez Spydea on Betterly.ai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://localhost:1313/fr/career/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://localhost:1313/marketing-site/fr/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customer Service Representative</title>
-      <link>https://localhost:1313/fr/career/customer-representative/</link>
+      <link>https://localhost:1313/marketing-site/fr/career/customer-representative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/fr/career/customer-representative/</guid>
+      <guid>https://localhost:1313/marketing-site/fr/career/customer-representative/</guid>
       <description>Le représentant du service à la clientèle jouera un rôle essentiel en fournissant un service à la clientèle et un soutien exceptionnels à nos précieux clients.</description>
     </item>
     
     <item>
       <title>Data Analyst</title>
-      <link>https://localhost:1313/fr/career/data-analyst/</link>
+      <link>https://localhost:1313/marketing-site/fr/career/data-analyst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/fr/career/data-analyst/</guid>
+      <guid>https://localhost:1313/marketing-site/fr/career/data-analyst/</guid>
       <description>Nous recherchons un analyste de données hautement qualifié et soucieux du détail pour rejoindre notre équipe d&amp;rsquo;analyse.</description>
     </item>
     
     <item>
       <title>Graphic Designer</title>
-      <link>https://localhost:1313/fr/career/graphic-designer/</link>
+      <link>https://localhost:1313/marketing-site/fr/career/graphic-designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/fr/career/graphic-designer/</guid>
+      <guid>https://localhost:1313/marketing-site/fr/career/graphic-designer/</guid>
       <description>En tant que graphiste, vous serez responsable de la conceptualisation et de la création de designs visuellement époustouflants qui communiquent efficacement le message de notre marque et captivent notre public cible.</description>
     </item>
     
     <item>
       <title>Project Manager</title>
-      <link>https://localhost:1313/fr/career/project-manager/</link>
+      <link>https://localhost:1313/marketing-site/fr/career/project-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/fr/career/project-manager/</guid>
+      <guid>https://localhost:1313/marketing-site/fr/career/project-manager/</guid>
       <description>Nous recherchons un chef de projet expérimenté et hautement organisé pour diriger et superviser notre gamme diversifiée de projets.</description>
     </item>
     

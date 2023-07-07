@@ -2,485 +2,485 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://localhost:1313/</loc>
+    <loc>https://localhost:1313/marketing-site/</loc>
     <lastmod>2022-09-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/"
+                href="https://localhost:1313/marketing-site/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/"
+                href="https://localhost:1313/marketing-site/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-9/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-9/</loc>
     <lastmod>2022-09-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-9/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-9/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-9/"
+                href="https://localhost:1313/marketing-site/blog/post-9/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/</loc>
     <lastmod>2022-09-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/"
+                href="https://localhost:1313/marketing-site/fr/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/"
+                href="https://localhost:1313/marketing-site/blog/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-8/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-8/</loc>
     <lastmod>2022-08-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-8/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-8/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-8/"
+                href="https://localhost:1313/marketing-site/blog/post-8/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-7/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-7/</loc>
     <lastmod>2022-07-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-7/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-7/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-7/"
+                href="https://localhost:1313/marketing-site/blog/post-7/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-6/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-6/</loc>
     <lastmod>2022-06-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-6/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-6/"
+                href="https://localhost:1313/marketing-site/blog/post-6/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-5/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-5/</loc>
     <lastmod>2022-05-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-5/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-5/"
+                href="https://localhost:1313/marketing-site/blog/post-5/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-4/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-4/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-4/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-4/"
+                href="https://localhost:1313/marketing-site/blog/post-4/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-3/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-3/</loc>
     <lastmod>2022-03-02T06:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-3/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-3/"
+                href="https://localhost:1313/marketing-site/blog/post-3/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-2/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-2/</loc>
     <lastmod>2022-02-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-2/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-2/"
+                href="https://localhost:1313/marketing-site/blog/post-2/"
                 />
   </url><url>
-    <loc>https://localhost:1313/blog/post-1/</loc>
+    <loc>https://localhost:1313/marketing-site/blog/post-1/</loc>
     <lastmod>2022-01-04T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/blog/post-1/"
+                href="https://localhost:1313/marketing-site/fr/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/blog/post-1/"
+                href="https://localhost:1313/marketing-site/blog/post-1/"
                 />
   </url><url>
-    <loc>https://localhost:1313/pages/</loc>
+    <loc>https://localhost:1313/marketing-site/pages/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/pages/"
+                href="https://localhost:1313/marketing-site/fr/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/pages/"
+                href="https://localhost:1313/marketing-site/pages/"
                 />
   </url><url>
-    <loc>https://localhost:1313/terms-conditions/</loc>
+    <loc>https://localhost:1313/marketing-site/terms-conditions/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/terms-conditions/"
+                href="https://localhost:1313/marketing-site/fr/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/terms-conditions/"
+                href="https://localhost:1313/marketing-site/terms-conditions/"
                 />
   </url><url>
-    <loc>https://localhost:1313/about/</loc>
+    <loc>https://localhost:1313/marketing-site/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/about/"
+                href="https://localhost:1313/marketing-site/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/about/"
+                href="https://localhost:1313/marketing-site/about/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/"
+                href="https://localhost:1313/marketing-site/fr/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/"
+                href="https://localhost:1313/marketing-site/authors/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/benjamin/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/benjamin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/benjamin/"
+                href="https://localhost:1313/marketing-site/fr/authors/benjamin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/benjamin/"
+                href="https://localhost:1313/marketing-site/authors/benjamin/"
                 />
   </url><url>
-    <loc>https://localhost:1313/career/</loc>
+    <loc>https://localhost:1313/marketing-site/career/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/career/"
+                href="https://localhost:1313/marketing-site/fr/career/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/career/"
+                href="https://localhost:1313/marketing-site/career/"
                 />
   </url><url>
-    <loc>https://localhost:1313/pricing/</loc>
+    <loc>https://localhost:1313/marketing-site/pricing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/pricing/"
+                href="https://localhost:1313/marketing-site/fr/pricing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/pricing/"
+                href="https://localhost:1313/marketing-site/pricing/"
                 />
   </url><url>
-    <loc>https://localhost:1313/contact/</loc>
+    <loc>https://localhost:1313/marketing-site/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/contact/"
+                href="https://localhost:1313/marketing-site/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/contact/"
+                href="https://localhost:1313/marketing-site/contact/"
                 />
   </url><url>
-    <loc>https://localhost:1313/career/customer-representative/</loc>
+    <loc>https://localhost:1313/marketing-site/career/customer-representative/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/career/customer-representative/"
+                href="https://localhost:1313/marketing-site/fr/career/customer-representative/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/career/customer-representative/"
+                href="https://localhost:1313/marketing-site/career/customer-representative/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/daniel-mitchell/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/daniel-mitchell/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/daniel-mitchell/"
+                href="https://localhost:1313/marketing-site/fr/authors/daniel-mitchell/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/daniel-mitchell/"
+                href="https://localhost:1313/marketing-site/authors/daniel-mitchell/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/darlene-robertson/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/darlene-robertson/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/darlene-robertson/"
+                href="https://localhost:1313/marketing-site/fr/authors/darlene-robertson/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/darlene-robertson/"
+                href="https://localhost:1313/marketing-site/authors/darlene-robertson/"
                 />
   </url><url>
-    <loc>https://localhost:1313/career/data-analyst/</loc>
+    <loc>https://localhost:1313/marketing-site/career/data-analyst/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/career/data-analyst/"
+                href="https://localhost:1313/marketing-site/fr/career/data-analyst/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/career/data-analyst/"
+                href="https://localhost:1313/marketing-site/career/data-analyst/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/david-harrison/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/david-harrison/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/david-harrison/"
+                href="https://localhost:1313/marketing-site/fr/authors/david-harrison/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/david-harrison/"
+                href="https://localhost:1313/marketing-site/authors/david-harrison/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/devon-lane/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/devon-lane/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/devon-lane/"
+                href="https://localhost:1313/marketing-site/fr/authors/devon-lane/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/devon-lane/"
+                href="https://localhost:1313/marketing-site/authors/devon-lane/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/discord/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/discord/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/discord/"
+                href="https://localhost:1313/marketing-site/fr/integration/discord/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/discord/"
+                href="https://localhost:1313/marketing-site/integration/discord/"
                 />
   </url><url>
-    <loc>https://localhost:1313/elements/</loc>
+    <loc>https://localhost:1313/marketing-site/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/elements/"
+                href="https://localhost:1313/marketing-site/fr/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/elements/"
+                href="https://localhost:1313/marketing-site/elements/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/figma/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/figma/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/figma/"
+                href="https://localhost:1313/marketing-site/fr/integration/figma/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/figma/"
+                href="https://localhost:1313/marketing-site/integration/figma/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/framer/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/framer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/framer/"
+                href="https://localhost:1313/marketing-site/fr/integration/framer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/framer/"
+                href="https://localhost:1313/marketing-site/integration/framer/"
                 />
   </url><url>
-    <loc>https://localhost:1313/career/graphic-designer/</loc>
+    <loc>https://localhost:1313/marketing-site/career/graphic-designer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/career/graphic-designer/"
+                href="https://localhost:1313/marketing-site/fr/career/graphic-designer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/career/graphic-designer/"
+                href="https://localhost:1313/marketing-site/career/graphic-designer/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/"
+                href="https://localhost:1313/marketing-site/fr/integration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/"
+                href="https://localhost:1313/marketing-site/integration/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/jacob-jones/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/jacob-jones/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/jacob-jones/"
+                href="https://localhost:1313/marketing-site/fr/authors/jacob-jones/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/jacob-jones/"
+                href="https://localhost:1313/marketing-site/authors/jacob-jones/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/jerome-bell/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/jerome-bell/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/jerome-bell/"
+                href="https://localhost:1313/marketing-site/fr/authors/jerome-bell/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/jerome-bell/"
+                href="https://localhost:1313/marketing-site/authors/jerome-bell/"
                 />
   </url><url>
-    <loc>https://localhost:1313/career/project-manager/</loc>
+    <loc>https://localhost:1313/marketing-site/career/project-manager/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/career/project-manager/"
+                href="https://localhost:1313/marketing-site/fr/career/project-manager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/career/project-manager/"
+                href="https://localhost:1313/marketing-site/career/project-manager/"
                 />
   </url><url>
-    <loc>https://localhost:1313/sections/</loc>
+    <loc>https://localhost:1313/marketing-site/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/sections/"
+                href="https://localhost:1313/marketing-site/fr/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/sections/"
+                href="https://localhost:1313/marketing-site/sections/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/slack/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/slack/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/slack/"
+                href="https://localhost:1313/marketing-site/fr/integration/slack/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/slack/"
+                href="https://localhost:1313/marketing-site/integration/slack/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/spotify/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/spotify/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/spotify/"
+                href="https://localhost:1313/marketing-site/fr/integration/spotify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/spotify/"
+                href="https://localhost:1313/marketing-site/integration/spotify/"
                 />
   </url><url>
-    <loc>https://localhost:1313/integration/telegram/</loc>
+    <loc>https://localhost:1313/marketing-site/integration/telegram/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/integration/telegram/"
+                href="https://localhost:1313/marketing-site/fr/integration/telegram/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/integration/telegram/"
+                href="https://localhost:1313/marketing-site/integration/telegram/"
                 />
   </url><url>
-    <loc>https://localhost:1313/authors/william-evans/</loc>
+    <loc>https://localhost:1313/marketing-site/authors/william-evans/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="https://localhost:1313/fr/authors/william-evans/"
+                href="https://localhost:1313/marketing-site/fr/authors/william-evans/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://localhost:1313/authors/william-evans/"
+                href="https://localhost:1313/marketing-site/authors/william-evans/"
                 />
   </url>
 </urlset>
