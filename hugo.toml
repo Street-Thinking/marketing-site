@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/spydea/site/"
+baseURL = "https://street-thinking.github.io/marketing-site/"
 title = "Betterly.ai - Done, Betterly"
 theme = "spydea-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -20,7 +20,7 @@ disableKinds = [
   "taxonomy",
   "term",
 ] # see https://gohugo.io/getting-started/configuration/#disablekinds
-
+publishDir="docs"
 
 ########################## Permalinks ############################
 [permalinks.page]
