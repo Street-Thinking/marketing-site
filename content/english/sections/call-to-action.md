@@ -1,19 +1,9 @@
 ---
 cta:
   enable: true
-  title: "Sign up and Create Your Online Store Today!"
+  title: "Find out how you can supercharge your local marketing efforts."
   image: "/images/cta-image.png"
-  supported_tech:
-    title: "Supported"
-    list:
-      - icon: "fa-brands fa-windows"
-        link: "#?"
-      - icon: "fa-brands fa-dropbox"
-        link: "#?"
-      - icon: "fa-solid fa-hashtag"
-        link: "#?"
-      - icon: "fa-brands fa-android"
-        link: "#?"
+  
   buttons:
     primary:
       label: "Get A Quote"

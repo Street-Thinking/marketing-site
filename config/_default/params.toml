@@ -24,8 +24,8 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-theme_copyright = true
-copyright = "Copyright by your company"
+theme_copyright = false
+copyright = "Copyright Betterly.ai"
 
 # Preloader
 [preloader]
@@ -51,7 +51,7 @@ email = "hello@spydea.com"
 # Subscription
 [announcement]
 enable = true
-content = "Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh Vivamus [Learn More](#)"
+content = "Find out how you can dominate your trade areas in Every. Single. Location. [Schedule a call here](https://calendly.com/stefansysko/30-minute-zoom)."
 
 # Subscription
 [quote_form]

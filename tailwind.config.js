@@ -1,12 +1,11 @@
-const toml = require("toml");
 const fs = require("fs");
 const path = require("path");
-const configPath = path.join(__dirname, "config.toml");
-const getConfig = fs.readFileSync(configPath, "utf8");
-const theme = JSON.parse(JSON.stringify(toml.parse(getConfig)));
+const themePath = path.join(__dirname, "data/theme.json");
+const themeRead = fs.readFileSync(themePath, "utf8");
+const theme = JSON.parse(themeRead);
 
-let font_base = Number(theme.params.fonts.font_size.base.replace("px", ""));
-let font_scale = Number(theme.params.fonts.font_size.scale);
+let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
+let font_scale = Number(theme.fonts.font_size.scale);
 let h6 = font_base / font_base;
 let h5 = h6 * font_scale;
 let h4 = h5 * font_scale;
@@ -14,17 +13,17 @@ let h3 = h4 * font_scale;
 let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
 let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
-if (theme.params.fonts.font_family.primary) {
-  fontPrimary = theme.params.fonts.font_family.primary
+if (theme.fonts.font_family.primary) {
+  fontPrimary = theme.fonts.font_family.primary
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontPrimaryType = theme.params.fonts.font_family.primary_type;
+  fontPrimaryType = theme.fonts.font_family.primary_type;
 }
-if (theme.params.fonts.font_family.secondary) {
-  fontSecondary = theme.params.fonts.font_family.secondary
+if (theme.fonts.font_family.secondary) {
+  fontSecondary = theme.fonts.font_family.secondary
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontSecondaryType = theme.params.fonts.font_family.secondary_type;
+  fontSecondaryType = theme.fonts.font_family.secondary_type;
 }
 
 /** @type {import('tailwindcss').Config} */
@@ -43,19 +42,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        text: theme.params.colors.default.text_color.default,
-        light: theme.params.colors.default.text_color.light,
-        dark: theme.params.colors.default.text_color.dark,
-        primary: theme.params.colors.default.theme_color.primary,
-        secondary: theme.params.colors.default.theme_color.secondary,
-        tertiary: theme.params.colors.default.theme_color.tertiary,
-        quaternary: theme.params.colors.default.theme_color.quaternary,
-        quinary: theme.params.colors.default.theme_color.quinary,
-        senary: theme.params.colors.default.theme_color.senary,
-        body: theme.params.colors.default.theme_color.body,
-        border: theme.params.colors.default.theme_color.border,
-        "theme-dark": theme.params.colors.default.theme_color.theme_dark,
-        "theme-light": theme.params.colors.default.theme_color.theme_light,
+        text: theme.colors.default.text_color.default,
+        light: theme.colors.default.text_color.light,
+        dark: theme.colors.default.text_color.dark,
+        primary: theme.colors.default.theme_color.primary,
+        secondary: theme.colors.default.theme_color.secondary,
+        tertiary: theme.colors.default.theme_color.tertiary,
+        quaternary: theme.colors.default.theme_color.quaternary,
+        quinary: theme.colors.default.theme_color.quinary,
+        senary: theme.colors.default.theme_color.senary,
+        body: theme.colors.default.theme_color.body,
+        border: theme.colors.default.theme_color.border,
+        "theme-dark": theme.colors.default.theme_color.theme_dark,
+        "theme-light": theme.colors.default.theme_color.theme_light,
       },
       fontSize: {
         base: font_base + "px",

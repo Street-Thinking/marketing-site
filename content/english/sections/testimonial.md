@@ -1,6 +1,6 @@
 ---
 testimonial:
-  enable: true
+  enable: false
   title: "Take an look at our customers stories"
   subtitle: "INSPIRING TESTIMONIALS"
   items:

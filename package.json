@@ -1,13 +1,13 @@
 {
   "name": "spydea-hugo",
-  "description": "spydea sass theme",
+  "description": "Betterly.ai",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "author": "gethugothemes",
   "scripts": {
-    "dev": "cd exampleSite; hugo server 2> /dev/null || hugo server --themesDir ../..",
-    "test": "cd exampleSite; hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify 2> /dev/null || hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "build": "cd exampleSite; hugo --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic 2> /dev/null || hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "dev": "cd marketing-site; hugo server 2> /dev/null || hugo server --themesDir ../..",
+    "test": "cd marketing-site; hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify 2> /dev/null || hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "build": "cd marketing-site; hugo --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic 2> /dev/null || hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "update-modules": "hugo mod clean && hugo mod get -u ./... && hugo mod tidy",
     "format": "prettier -w ."
   },
