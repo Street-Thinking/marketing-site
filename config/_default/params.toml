@@ -45,8 +45,9 @@ link = "contact/"
 
 # contact info
 [contact_info]
-mobile = "+94746-388817"
-email = "hello@spydea.com"
+mobile = "+12485345917"
+mobile_display = "(248) 534-5917"
+email = "sales@betterly.ai"
 
 # Subscription
 [announcement]
