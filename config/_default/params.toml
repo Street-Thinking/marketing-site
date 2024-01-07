@@ -33,10 +33,6 @@ enable = false
 preloader = "images/logo-dark.png" # use jpg, png, svg or gif format.
 
 # Navigation button
-[navigation_button]
-enable = true
-label = "Integration"
-link = "integration/"
 
 [navigation_button_outline]
 enable = true
@@ -57,7 +53,7 @@ content = "Find out how you can dominate your trade areas in Every. Single. Loca
 # Subscription
 [quote_form]
 enable = true
-submit_button_label = "Get A Quote"
+submit_button_label = "Get Started"
 placeholder = ""
 action = "#"                        # contact form works with [https://airform.io/] , [https://formspree.io]
 
@@ -84,9 +80,9 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
-description = "This is meta description"
-author = "Themefisher"
+keywords = ["betterly", "trade area analysis", "restaurant marketing", "franchisee"]
+description = "Own your trade area, betterly"
+author = "Betterly"
 image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/

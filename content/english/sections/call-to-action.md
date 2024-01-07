@@ -6,11 +6,8 @@ cta:
   
   buttons:
     primary:
-      label: "Get A Quote"
+      label: "Get Started"
       link: "contact/"
-    outline:
-      label: "Integration"
-      link: "integration/"
 
 # don't create a separete page
 _build:
